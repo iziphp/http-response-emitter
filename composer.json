@@ -1,11 +1,11 @@
 {
-    "name": "phpstandard/library",
+    "name": "phpstandard/http-response-emitter",
     "description": "Skeleton to create a composer library",
-    "type": "project",
+    "type": "library",
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "PhpStandard\\PackageNamespace\\": "src/"
+            "PhpStandard\\Http\\ResponseEmitter\\": "src/"
         }
     },
     "authors": [

@@ -1,9 +1,9 @@
-# phpstandard/library
+# phpstandard/http-response-emitter
 
-Skeleton to create a composer library
+Common interface for HTTP Response Emitters.
 
 ## Installation
 
 ```bash
-composer create-project phpstandard/library
+composer require phpstandard/http-response-emitter
 ```
