@@ -4,9 +4,11 @@ declare(strict_types=1);
 
 namespace PhpStandard\Http\ResponseEmitter;
 
+use PhpStandard\Http\ResponseEmitter\Exceptions\HeadersAlreadySentExceptionInterface;
+use PhpStandard\Http\ResponseEmitter\Exceptions\PreviousOutputExceptionInterface;
 use Psr\Http\Message\ResponseInterface;
 
-/** @package PhpStandard\Emitter */
+/** @package PhpStandard\Http\ResponseEmitter */
 interface EmitterInterface
 {
     /**
@@ -25,6 +27,8 @@ interface EmitterInterface
      * @param \Psr\Http\Message\ResponseInterface $response
      *
      * @return void
+     * @throws HeadersAlreadySentExceptionInterface
+     * @throws PreviousOutputExceptionInterface
      */
     public function emit(ResponseInterface $response): void;
 }
