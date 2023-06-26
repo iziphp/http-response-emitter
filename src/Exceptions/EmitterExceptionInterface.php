@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace PhpStandard\Http\ResponseEmitter\Exceptions;
+namespace Easy\Http\ResponseEmitter\Exceptions;
 
 use Throwable;
 
-/** @package PhpStandard\Http\ResponseEmitter\Exceptions */
+/** @package Easy\Http\ResponseEmitter\Exceptions */
 interface EmitterExceptionInterface extends Throwable
 {
 }

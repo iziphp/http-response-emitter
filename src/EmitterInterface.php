@@ -2,13 +2,13 @@
 
 declare(strict_types=1);
 
-namespace PhpStandard\Http\ResponseEmitter;
+namespace Easy\Http\ResponseEmitter;
 
-use PhpStandard\Http\ResponseEmitter\Exceptions\HeadersAlreadySentExceptionInterface;
-use PhpStandard\Http\ResponseEmitter\Exceptions\PreviousOutputExceptionInterface;
+use Easy\Http\ResponseEmitter\Exceptions\HeadersAlreadySentExceptionInterface;
+use Easy\Http\ResponseEmitter\Exceptions\PreviousOutputExceptionInterface;
 use Psr\Http\Message\ResponseInterface;
 
-/** @package PhpStandard\Http\ResponseEmitter */
+/** @package Easy\Http\ResponseEmitter */
 interface EmitterInterface
 {
     /**

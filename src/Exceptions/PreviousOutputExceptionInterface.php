@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace PhpStandard\Http\ResponseEmitter\Exceptions;
+namespace Easy\Http\ResponseEmitter\Exceptions;
 
-/** @package PhpStandard\Http\ResponseEmitter\Exceptions */
+/** @package Easy\Http\ResponseEmitter\Exceptions */
 interface PreviousOutputExceptionInterface extends EmitterExceptionInterface
 {
 }

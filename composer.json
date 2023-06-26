@@ -1,11 +1,16 @@
 {
-    "name": "phpstandard/http-response-emitter",
+    "name": "iziphp/http-response-emitter",
     "description": "Common interface for HTTP Response Emitters",
     "type": "library",
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "PhpStandard\\Http\\ResponseEmitter\\": "src/"
+            "Easy\\Http\\ResponseEmitter\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Easy\\Http\\ResponseEmitter\\Tests\\": "tests/"
         }
     },
     "authors": [
@@ -39,6 +44,7 @@
         ]
     },
     "require": {
+        "php": "^8.2",
         "psr/http-message": "^1.0"
     }
 }
